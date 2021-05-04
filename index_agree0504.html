@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">		
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+       	<meta name="HandheldFriendly" content="true" />
+        <title>title</title>
+       <!--style-->
+				<style>
+					#agree_wrap{width:100%; height:100%; max-width:780px; background-color:#f8f8f8; margin:0 auto; padding:0; overflow:hidden; font-size:18px;}
+					#ag_header{background-color:#1598e8; height:6vw; vertical-align:middle; position:relative; text-align:center;}
+					#ag_header img{margin-top:1%;}
+					#ag_container img{display: block; margin:0 auto; margin-top:3%;}
+					#ag_container>p{text-align:center; margin-bottom:3%;}
+					
+					.agree_clu{width:calc(100% - 5vw); background-color:#fff; margin:0 auto; border:1px solid #333; padding:5%; box-sizing:border-box;}
+					.agree_clu h4{text-align:center; margin-bottom:8%;}
+					
+					.agree_con01{text-align: right; font-size:20px; margin-right:3%;}
+					.agree_con01 input{width:20px;height:20px;vertical-align:top;}
+					.agree_con01 p{margin-bottom:0;}
+					.agree_con01 span{font-size:16px;}
+					
+					.agree_con02{margin-left:3%;}
+					.agree_con02 h6{font-size:18px; margin-bottom:5px;}
+					.agree_con02 input{height:50px; line-height:50px; margin:0 auto; width:calc(100% - 55px); text-align:center; box-sizing:border-box;}
+					
+					.ag_ft{width:100%;position:fixed; bottom:0;}
+					.btn_area{width:100%; display:flex;}
+					.ag_btn{margin:0; box-sizing: border-box; padding:0; float: left; height:100px; flex:1 0 auto; margin-left:-1.5%; font-size:24px; border:1px solid #ddd;}
+					.ag_reset{background-color:#fee069;}
+					.ag_submit{background-color:#5cace1;}
+					.ag_refresh{background-color:#4dabad;}
+			</style>
+       <!--style-->
+   
+    </head>
+    <body>
+    <!--전체-->
+    <div id="agree_wrap">
+    	<!--header-->
+    	<header id="ag_header">
+    		<img src="./images/main/top_logo.png" alt="일렉트로마트로고">
+    	</header>
+    	<!--header-->
+    	<!--container-->
+    	<div id="ag_container">
+    		<img src="./images/main/agree_tit.png" alt="별내점오픈이벤트">
+    		<p>개인정보 수집 &#183; 이용 동의</p>
+    		<div class="agree_clu">
+    			<h4><span style="text-decoration: underline">이마트</span> &#183; <span style="text-decoration: underline">&#40;주&#41;모카커뮤니케이션즈</span> 귀중</h4>
+            <p class="agree_tit">일렉트로마트 별내점 오픈 이벤트 참여 목적으로 본인의 개인정보<br> 수집, 이용에 동의하며 하기 항목을 확인 합니다.<br><br>
+              <strong class="text">■&nbsp;수집, 이용목적 :</strong> 이벤트 참여 &#183; 경품 신청 및 발송<br>
+              <strong>■&nbsp;수집, 이용항목 :</strong> 핸드폰 번호<br>
+              <strong>■&nbsp;보유기간 :</strong> 모바일쿠폰 발송일 기준 30일<br>
+              <strong>■&nbsp;파기일정 :</strong> 모바일쿠폰 유효기간 종료일 이후 즉시 파기<br>
+              <strong>■&nbsp;동의거부 권리 및 동의 거부시 불이익 :</strong><br>개인정보 제공에 대해 거부하실수 있으며, 동의 후 언제든지 철회 가능합니다.<br>
+              미 동의시 이벤트 참여에 제한이 있을 수 있습니다.
+            </p>
+    		</div>
+    		<div class="agree_con01">
+    			<p>개인정보 수집 &#183; 이용에 동의합니다.<input type="checkbox"></p>
+           <span>&#40;개인정보 수집 &#183; 이용에 체크해주세요.&#41;</span>
+    		</div>
+    		<div class="agree_con02">
+					<h6>■&nbsp;핸드폰번호 입력</h6>
+					<input type="text" id="user_mobile" name="user_mobile" value="" class="inp_text">
+					<p>* 잘못 등록된 개인정보로 인한 당첨문자 미수신시 당사는 책임지지 않습니다.<br>정확하게 입력하여 주시기 바랍니다.</p>
+				</div>
+    	</div>
+    	<div class="ag_ft">
+    	<div class="btn_area">
+        <button class="ag_btn ag_reset">취소</button>
+        <button class="ag_btn ag_submit">확인</button>
+        <button class="ag_btn ag_refresh">수정</button>
+      </div>
+      </div>
+    	
+    	<!--container-->
+    </div>
+    <!--전체-->
+    </body>
+</html>
+
